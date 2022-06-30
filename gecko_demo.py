@@ -19,12 +19,12 @@ class GoogleLoginTestCase(unittest.TestCase):
         """Test scenario for gmail inbox"""
         # Find username input and send some keys
         self.username = self.browser.find_element_by_id("identifierId")
-        self.username.send_keys("gtaramas7@gmail.com")
+        self.username.send_keys("") # Input Gmail username
         # Press enter
         self.username.send_keys(Keys.RETURN)
         # Find password input and send some keys
         self.password = self.browser.find_element_by_name("password")
-        self.password.send_keys("182760550")
+        self.password.send_keys("") # Input Gmail password
         # Press enter
         self.password.send_keys(Keys.RETURN)
         # Find Primary section of emails
