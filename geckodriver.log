@@ -1,0 +1,112 @@
+1656603007675	geckodriver	INFO	Listening on 127.0.0.1:50449
+1656603007946	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50450" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofileOV9avz"
+1656603022878	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50450
+2022-06-30 18:30:23.069 plugin-container[1925:77597] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:30:23.069 plugin-container[1925:77597] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:30:23.197 plugin-container[1925:77597] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:30:23.197 plugin-container[1925:77597] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:30:23.197 plugin-container[1925:77595] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:30:23.197 plugin-container[1925:77595] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:30:23.773 firefox-bin[1917:77390] Warning: Expected min height of view: (<NSButton: 0x11b17d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-30 18:30:23.773 firefox-bin[1917:77390] Warning: Expected min height of view: (<NSButton: 0x134676c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-30 18:30:23.774 firefox-bin[1917:77390] Warning: Expected min height of view: (<NSButton: 0x134679000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-30 18:30:23.774 firefox-bin[1917:77390] Warning: Expected min height of view: (<NSButton: 0x134675400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-30 18:30:23.774 firefox-bin[1917:77390] Warning: Expected min height of view: (<NSButton: 0x134676800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-30 18:30:23.775 firefox-bin[1917:77390] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134677000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-06-30 18:30:23.775 firefox-bin[1917:77390] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x118e38c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofileOV9avz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1656603024655	Marionette	INFO	Listening on port 50467
+DevTools listening on ws://localhost:50450/devtools/browser/7fdc8c07-8fa7-4d46-9362-aa80f125c075
+Read port: 50467
+1656603024714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1656603026204	Marionette	INFO	Stopped listening on port 50467
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656603700778	geckodriver	INFO	Listening on 127.0.0.1:50627
+1656603701303	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50628" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofileMU0zQ1"
+2022-06-30 18:42:01.109 plugin-container[2054:83798] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:42:01.130 plugin-container[2054:83798] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:50628
+2022-06-30 18:42:01.246 plugin-container[2054:83798] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:42:01.246 plugin-container[2054:83798] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:42:01.246 plugin-container[2054:83796] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:42:01.246 plugin-container[2054:83796] nil host used in call to allowsAnyHTTPSCertificateForHost:
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://localhost:50628/devtools/browser/deb9d5b7-682e-4419-995a-a7d4a5c301b0
+1656603765625	geckodriver	INFO	Listening on 127.0.0.1:50674
+1656603766141	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50675" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofilekhqmMw"
+1656603779811	Marionette	INFO	Marionette enabled
+1656603779908	Marionette	INFO	Listening on port 50683
+WebDriver BiDi listening on ws://localhost:50675
+Read port: 50683
+2022-06-30 18:43:00.053 plugin-container[2103:85000] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:00.053 plugin-container[2103:85000] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:43:00.138 plugin-container[2103:85000] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:00.138 plugin-container[2103:85000] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:43:00.138 plugin-container[2103:85076] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:00.138 plugin-container[2103:85076] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656603780213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofilekhqmMw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50675/devtools/browser/d3c96ed1-2a0c-4d79-b812-c3b3de8cd8e1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+1656603784782	Marionette	INFO	Stopped listening on port 50683
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1 line 2 > eval line 7498 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656603800819	geckodriver	INFO	Listening on 127.0.0.1:50730
+1656603800828	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50731" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofileaaMIyH"
+2022-06-30 18:43:21.199 plugin-container[2143:85637] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:21.199 plugin-container[2143:85637] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:43:21.202 plugin-container[2143:85637] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:21.202 plugin-container[2143:85637] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:43:21.202 plugin-container[2143:85644] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:21.202 plugin-container[2143:85644] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656603801222	Marionette	INFO	Marionette enabled
+1656603801264	Marionette	INFO	Listening on port 50736
+WebDriver BiDi listening on ws://localhost:50731
+Read port: 50736
+1656603801539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofileaaMIyH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50731/devtools/browser/607ac66c-d26c-4fe3-ba82-bd1766d823b3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1 line 2 > eval line 7456 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1 line 2 > eval line 4573 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2022-06-30 15:43:26.840 plugin-container[2157:85958] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 15:43:26.840 plugin-container[2157:85958] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 15:43:26.843 plugin-container[2157:85958] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 15:43:26.843 plugin-container[2157:85958] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 15:43:26.843 plugin-container[2157:85961] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 15:43:26.843 plugin-container[2157:85961] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656603811407	Marionette	INFO	Stopped listening on port 50736
+1656603819168	geckodriver	INFO	Listening on 127.0.0.1:50785
+1656603819175	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50786" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofileF6MlCH"
+2022-06-30 18:43:39.537 plugin-container[2172:86177] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:39.537 plugin-container[2172:86177] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:43:39.539 plugin-container[2172:86177] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:39.539 plugin-container[2172:86177] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 18:43:39.540 plugin-container[2172:86179] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 18:43:39.540 plugin-container[2172:86179] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656603819561	Marionette	INFO	Marionette enabled
+1656603819597	Marionette	INFO	Listening on port 50790
+WebDriver BiDi listening on ws://localhost:50786
+Read port: 50790
+1656603819867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0k/d72dxhs577sfl3k92xwt5vf40000gn/T/rust_mozprofileF6MlCH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50786/devtools/browser/fa2efdd4-628f-4695-b5a4-16e77d0e3686
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1 line 2 > eval line 7067 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1 line 2 > eval line 2922 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2022-06-30 15:43:44.764 plugin-container[2184:86478] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 15:43:44.764 plugin-container[2184:86478] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 15:43:44.766 plugin-container[2184:86478] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 15:43:44.766 plugin-container[2184:86478] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-06-30 15:43:44.766 plugin-container[2184:86480] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-06-30 15:43:44.766 plugin-container[2184:86480] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1656603829338	Marionette	INFO	Stopped listening on port 50790
